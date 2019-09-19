@@ -1,6 +1,20 @@
 <?php
-
-$array = array("Sjonnie de Wiel", "Herman Kaal", "Henk de Steen", "Inge Kerkhoven","Gert Kruiswijk");
-var_dump($array);
-
-?>
+$leerlingen = [
+    "Sven van 't Hoenderdaal",
+    "Daniel Kempers",
+    "Daniel van den Brink",
+    "Guillermo Latumahina",
+    "Maurits Does",
+    "Quincy van Kempen",
+    "Sonny Proeger",
+    "Thorval van Beek",
+    "Tom Paulus",
+    "Joshua Barselaar",
+    "Amjad Alarori",
+    "Maro",
+    "Marwan Moussaten",
+    "Mitchel Meskes",
+    "Silvano Bakacak"
+];
+for($i=0;$i<count($leerlingen);$i++) {
+    echo $leerlingen[$i] . PHP_EOL;
